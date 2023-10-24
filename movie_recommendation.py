@@ -7,7 +7,7 @@ import re
 
 
 
-# 유사도를 측정해서 가장 높은 유사도를 알려주는 함수
+# 유사도를 측정해서 가장 높은 유사도로 정렬하는 함수
 def getRecommendation(cosine_sim):
     simScore = list(enumerate(cosine_sim[-1]))
     simScore = sorted(simScore, key=lambda x:x[1], reverse=True)
