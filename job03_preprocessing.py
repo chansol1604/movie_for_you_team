@@ -2,6 +2,8 @@ import pandas as pd
 from konlpy.tag import Okt
 import re
 
+
+
 df = pd.read_csv('./crawling_data/reviews_20231024.csv')
 df.info()
 

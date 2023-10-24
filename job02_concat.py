@@ -2,6 +2,8 @@ import datetime
 import pandas as pd
 import glob
 
+
+
 data_paths = glob.glob('./crawling_data/20*.csv')
 print(data_paths)
 
